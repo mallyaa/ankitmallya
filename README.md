@@ -62,8 +62,8 @@
 
 <div align="center">
 
-[![Ankit's GitHub stats](https://github-readme-stats.vercel.app/api?username=ankitmallya&show_icons=true&theme=default&hide_border=true&count_private=true)](https://github.com/ankitmallya)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ankitmallya&theme=default&hide_border=true)](https://github.com/ankitmallya)
+[![Ankit's GitHub stats](https://github-readme-stats.vercel.app/api?username=mallyaa&show_icons=true&theme=default&hide_border=true&count_private=true)](https://github.com/mallyaa)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mallyaa&theme=default&hide_border=true)](https://github.com/mallyaa)
 
 </div>
 
@@ -80,8 +80,8 @@
 
 | Project | Description |
 | :--- | :--- |
-| [**Portfolio**](https://github.com/ankitmallya/portfolio) | Engineer → PM portfolio: problem, approach, impact. |
-| [**Daily Ship**](https://github.com/ankitmallya/ankitmallya/tree/main/daily-log) | Building in public: automated daily commits + live timeline site (streak, Shipped/Learned). |
+| [**Portfolio**](https://github.com/mallyaa/portfolio) | Engineer → PM portfolio: problem, approach, impact. |
+| [**Daily Ship**](https://github.com/mallyaa/ankitmallya/tree/main/daily-log) | Building in public: automated daily commits + live timeline site (streak, Shipped/Learned). |
 | *[Add your next project]* | *One-line description and link.* |
 
 *More projects coming as I ship. Focus: product-led side projects and open-source contributions.*
