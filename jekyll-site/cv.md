@@ -57,4 +57,3 @@ Engineering background in systems, data, and automation. Ongoing transition into
 
 ---
 
-*To add a PDF: place your CV as <code>assets/cv.pdf</code>. The "Download PDF" button will use it. If you don't add a PDF, you can remove that button or point it to an external link.*

@@ -18,14 +18,15 @@ title: Home
     </div>
   </div>
 
-  <section class="section section-who">
+  <section class="section section-who animate-on-scroll">
     <p class="home-greeting"><span class="greeting-rotate" id="greeting" aria-live="polite">Hello</span>, my name is</p>
-    <h2 class="home-intro-line">I enjoy building things.</h2>
+    <h2 class="home-intro-line">I build scalable platforms and data systems that ship.</h2>
+    <p class="summary-line">Engineering → Product | AWS · Snowflake · dbt | Platform + Data Systems</p>
     <p>
-      I'm a software engineer, investor and traveler currently based in Bangalore, India.
+      I'm a software engineer, investor and traveller based in Bangalore, India. I build and ship data pipelines and platform tooling that teams rely on — with a focus on clarity, reliability, and impact.
     </p>
     <p>
-      Currently building DataXchange for <a href="https://betanxt.com/" target="_blank" rel="noopener" class="link-highlight">BetaNXT</a> — a fintech company powering wealth management; we're making data flow for advisors and asset managers faster and more reliable.
+      Currently building DataXchange at <a href="https://betanxt.com/" target="_blank" rel="noopener" class="link-highlight">BetaNXT</a>, a fintech company powering wealth management. We're making data flow for advisors and asset managers faster and more reliable.
     </p>
     <script>
       (function() {
@@ -41,14 +42,55 @@ title: Home
     </script>
   </section>
 
-  <section class="section">
+  <section class="section animate-on-scroll">
+    <h2>Currently</h2>
+    <div class="currently-card">
+      <h3>Building DataXchange @ BetaNXT</h3>
+      <ul>
+        <li>Working on ingestion pipelines and Snowflake/dbt transformations</li>
+        <li>Exploring LLM + RAG for enterprise data usability</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section animate-on-scroll">
+    <h2>Focus areas</h2>
+    <div class="focus-grid">
+      <div class="focus-card">
+        <h3>Technical depth</h3>
+        <ul>
+          <li>Data pipelines (AWS, Airflow, dbt, Spark)</li>
+          <li>Cloud & infra (Terraform, Snowflake, Redshift)</li>
+          <li>Schema design, streaming, and governance</li>
+        </ul>
+      </div>
+      <div class="focus-card">
+        <h3>Product thinking</h3>
+        <ul>
+          <li>Problem discovery and prioritization</li>
+          <li>Roadmaps and stakeholder alignment</li>
+          <li>Metrics and outcome-focused delivery</li>
+        </ul>
+      </div>
+      <div class="focus-card">
+        <h3>Execution & collaboration</h3>
+        <ul>
+          <li>Cross-functional ownership end-to-end</li>
+          <li>Specs, reviews, and clear communication</li>
+          <li>Shipping on time without sacrificing quality</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section animate-on-scroll">
     <h2>Quick links</h2>
-    <p>
-      <a href="{{ '/experience' | relative_url }}">Work experience</a> ·
-      <a href="{{ '/blog' | relative_url }}">Blog</a> ·
-      <a href="{{ '/cv' | relative_url }}">CV</a> ·
-      <a href="https://linkedin.com/in/ankitmallya" target="_blank" rel="noopener">LinkedIn</a> ·
-      <a href="mailto:ankit.mallya@gmail.com">Email</a>
-    </p>
+    <div class="quick-links">
+      <a href="{{ '/experience' | relative_url }}" class="pill">Work experience</a>
+      <a href="{{ '/blog' | relative_url }}" class="pill">Blog</a>
+      <a href="{{ '/cv' | relative_url }}" class="pill">CV</a>
+      <a href="https://linkedin.com/in/ankitmallya" class="pill" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:ankit.mallya@gmail.com" class="pill">Email</a>
+    </div>
   </section>
 </div>
