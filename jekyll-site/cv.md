@@ -14,11 +14,24 @@ title: CV
 
 ## Ankit Mallya
 
-**Tech Product Manager** · Engineering → Product
+**Engineering @ BetaNXT** · Engineering → Product
 
 ### Summary
 
-Engineer moving into tech product management. Strong foundation in cloud and data platforms (AWS, Snowflake, dbt) and product thinking: customer impact, prioritization, roadmap clarity. Focus on problem discovery, strategy, and execution.
+I’m a product-minded engineer transitioning into Technical Product Management, with a strong foundation in cloud and data platforms (AWS, Snowflake, dbt) and a track record of building scalable systems that deliver real business and customer impact.
+
+I operate at the intersection of engineering depth, product strategy, and execution — turning ambiguous problems into clear product narratives, structured roadmaps, and high-quality launches. I enjoy simplifying complexity, aligning stakeholders, and driving outcomes from discovery through delivery.
+
+My strengths include:
+
+- Problem discovery & customer empathy (asking the right questions before building)
+- Prioritization & roadmap clarity (balancing impact, effort, and risk)
+- Data platform and cloud expertise (AWS, Snowflake, dbt, automation workflows)
+- Execution leadership (shipping reliable systems, improving efficiency, and reducing manual work)
+
+I’m especially interested in platform, data, and infrastructure-adjacent product roles, where deep technical context meets high-leverage product thinking — building tools and systems that make teams faster, decisions smarter, and businesses stronger.
+
+Outside of work, you’ll usually find me stress-watching Manchester United, backing my favorite UFC fighter like it’s a personal responsibility, or in the gym pretending my discipline is consistent.
 
 ### Experience highlights
 
@@ -30,7 +43,7 @@ Engineer moving into tech product management. Strong foundation in cloud and dat
 
 | Technical | Product | Collaboration |
 |-----------|---------|---------------|
-| Systems thinking, APIs, SQL/Python, feasibility | PRDs, roadmapping, RICE, metrics & OKRs | Specs, stakeholder alignment, cross-functional execution |
+| Systems thinking, cloud/data platforms, APIs, SQL/Python, architecture reviews, feasibility analysis| PRDs, roadmap planning, prioritization frameworks (RICE), OKRs, metrics-driven decision making | Specs, stakeholder alignment, cross-functional execution |
 
 ### Education & background
 

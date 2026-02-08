@@ -1,6 +1,6 @@
 # Jekyll config for GitHub Pages — one-stop personal site
 title: Ankit Mallya
-description: "Tech Product Manager · Engineering → Product · Building products that ship"
+description: "Engineering @ BetaNXT · Engineering → Product · Building products that ship"
 baseurl: "/mallyaa"  # Use "" for username.github.io; use "/repo-name" for username.github.io/repo-name/
 url: "https://mallyaa.github.io"
 

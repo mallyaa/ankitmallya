@@ -226,6 +226,10 @@ body {
   text-decoration: none;
 }
 
+/* Override .main a so button text stays visible on teal background */
+.main a.btn { color: #fff; }
+.main a.btn:hover { color: #fff; }
+
 .btn:hover { background: var(--accent-hover); }
 
 .btn-outline {
