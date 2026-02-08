@@ -12,7 +12,7 @@ title: Home
       </div>
       <div class="home-hero-text">
         <p class="home-greeting-line">
-          <span class="greeting-prefix">hello my name is</span> <span class="greeting-name">Ankit Mallya</span><span class="cursor-console" aria-hidden="true">/</span>
+          <span class="greeting-prefix">hello my name is</span> <span class="greeting-name">Ankit</span><span class="cursor-console" aria-hidden="true">/</span>
         </p>
         <p>
           I'm a software engineer, investor and traveller based in Bangalore, India. I build and ship data pipelines and platform tooling that teams rely on — with a focus on clarity, reliability, and impact.

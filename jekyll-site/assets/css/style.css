@@ -246,35 +246,37 @@ body {
 
 .home-greeting-line {
   font-family: var(--font-heading);
-  line-height: 1.2;
-  letter-spacing: -0.03em;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
   margin: 0 0 var(--space-4);
 }
 
+/* Like Gazi: "hello my name is" (grey) + "Ankit" (accent) + "/" on one line, tight spacing */
 .greeting-prefix {
-  font-weight: 700;
-  font-size: clamp(1rem, 2.2vw, 1.2rem);
+  font-weight: 600;
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
   color: var(--muted);
-  display: block;
-  margin-bottom: var(--space-1);
+  display: inline;
+  margin: 0;
 }
 
 .greeting-name {
   font-family: ui-monospace, "Cascadia Code", "SF Mono", "IBM Plex Mono", Monaco, monospace;
   font-weight: 700;
-  font-size: clamp(2rem, 6vw, 3.25rem);
-  color: #0a0f1a;
+  font-size: clamp(1.75rem, 5vw, 2.75rem);
+  color: var(--accent);
   letter-spacing: 0.02em;
-  display: inline-block;
+  display: inline;
+  margin-left: 0.25em;
 }
 
-/* Console-style blinking slash — same mechanical font and size as name */
+/* Console-style blinking slash — matches name size, tight after "Ankit" */
 .cursor-console {
   font-family: ui-monospace, "Cascadia Code", "SF Mono", "IBM Plex Mono", Monaco, monospace;
   font-weight: 700;
-  font-size: clamp(2rem, 6vw, 3.25rem);
-  color: #16a34a;
-  margin-left: 3px;
+  font-size: clamp(1.75rem, 5vw, 2.75rem);
+  color: var(--accent);
+  margin-left: 0.08em;
   display: inline-block;
   transition: opacity 0.1s step-end;
   vertical-align: baseline;
