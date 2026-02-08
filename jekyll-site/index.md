@@ -14,15 +14,27 @@ title: Home
     <p class="home-sub">Engineering → Product · Building products that ship</p>
   </div>
 
-  <section class="section">
-    <h2>Who I am</h2>
+  <section class="section section-who">
+    <p class="home-greeting"><span class="greeting-rotate" id="greeting" aria-live="polite">Hello</span>, my name is</p>
+    <h2 class="home-intro-line">I enjoy building things.</h2>
     <p>
-      I'm an engineer moving into tech product management — focused on <strong>problem discovery</strong>, <strong>strategy</strong>, and <strong>execution</strong>, not just delivery.
-      I bring a strong foundation in cloud and data platforms (AWS, Snowflake, dbt) and product thinking: customer impact, prioritization, and roadmap clarity.
+      I'm a software engineer, investor and traveler currently based in Bangalore, India.
     </p>
     <p>
-      I care about scalable systems, measurable outcomes, and building alignment across engineering, business, and stakeholders.
+      Currently building DataXchange for <a href="https://betanxt.com/" target="_blank" rel="noopener" class="link-highlight">BetaNXT</a> — a fintech company powering wealth management; we're making data flow for advisors and asset managers faster and more reliable.
     </p>
+    <script>
+      (function() {
+        var greetings = ['Namaste', 'Bonjour', 'Hello', 'Hola', 'Ciao'];
+        var el = document.getElementById('greeting');
+        if (!el) return;
+        var i = 0;
+        setInterval(function() {
+          i = (i + 1) % greetings.length;
+          el.textContent = greetings[i];
+        }, 2200);
+      })();
+    </script>
   </section>
 
   <section class="section">
