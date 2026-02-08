@@ -5,13 +5,17 @@ title: Home
 
 <div class="home">
   <div class="home-hero">
-    <div class="home-photo-wrap">
-      <img src="{{ '/assets/img/photo.jpg' | relative_url }}" alt="Ankit Mallya" class="home-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <div class="home-photo-placeholder" aria-hidden="true"><span>AM</span></div>
+    <div class="home-hero-inner">
+      <div class="home-photo-wrap">
+        <img src="{{ '/assets/img/photo.jpg' | relative_url }}" alt="Ankit Mallya" class="home-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="home-photo-placeholder" aria-hidden="true"><span>AM</span></div>
+      </div>
+      <div class="home-hero-text">
+        <h1 class="home-name">{{ site.title }}</h1>
+        <p class="home-tagline">Engineering @ BetaNXT</p>
+        <p class="home-sub">Engineering → Product · Building products that ship</p>
+      </div>
     </div>
-    <h1 class="home-name">{{ site.title }}</h1>
-    <p class="home-tagline">Tech Product Manager</p>
-    <p class="home-sub">Engineering → Product · Building products that ship</p>
   </div>
 
   <section class="section section-who">
