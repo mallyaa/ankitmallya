@@ -11,9 +11,10 @@ permalink: pretty
 
 # No theme — we use _layouts and assets
 
-# Exclude from processing (README never used for site)
+# Exclude from processing (README never used for site; vendor = bundler gems in CI)
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - DEPLOY.md
+  - vendor
