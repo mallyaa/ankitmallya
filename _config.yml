@@ -16,4 +16,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - jekyll-site.iml
+  - DEPLOY.md
