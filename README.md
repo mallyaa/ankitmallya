@@ -18,8 +18,8 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ankitmallya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mallyaa)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20site-8b949e?style=for-the-badge)](https://ankitmallya.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ankitmallya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitmallya)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20site-8b949e?style=for-the-badge)](https://mallyaa.github.io/mallyaa/)
 [![Email](https://img.shields.io/badge/Email-Reach%20out-8b949e?style=for-the-badge&logo=minutemailer)](mailto:ankit.mallya@gmail.com)
 
 </div>
@@ -48,7 +48,7 @@
 
 <div align="center">
 
-*Tools I've used (aligned with my [LinkedIn](https://linkedin.com/in/ankitmallya))*
+*Tools I've used 
 
 <br>
 

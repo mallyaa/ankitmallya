@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ankit Mallya</title>
+  <title>Ankit Mallya — Tech Product Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav class="nav">
     <div class="nav-inner">
-      <a href="#" class="nav-logo">Ankit Mallya</a>
+      <a href="#home" class="nav-logo">Ankit Mallya</a>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
+        <li><a href="#biography">About</a></li>
         <li><a href="#posts">Posts</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#talks">Talks</a></li>
-        <li><a href="#teaching">Teaching</a></li>
         <li><a href="#cv">CV</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu"></button>
@@ -24,6 +27,10 @@
 
   <main>
     <header id="home" class="hero">
+      <div class="hero-photo-wrap">
+        <img src="photo.jpg" alt="Ankit Mallya" class="hero-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="hero-photo-placeholder" aria-hidden="true"><span>AM</span></div>
+      </div>
       <h1 class="hero-name">Ankit Mallya</h1>
       <p class="hero-title">Tech Product Manager</p>
       <p class="hero-subtitle">Engineering → Product</p>
