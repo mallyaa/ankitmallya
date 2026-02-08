@@ -1,5 +1,4 @@
-# Daily Ship — incremental daily commits + showcase site
-# Creates today's log entry, updates streak, and rebuilds the public timeline site.
+# Daily Ship — incremental daily commits (log entries + streak)
 name: Daily Ship
 
 on:
@@ -24,14 +23,10 @@ jobs:
           chmod +x daily-log/scripts/update-daily.sh
           ./daily-log/scripts/update-daily.sh
 
-      - name: Build showcase site data
-        run: |
-          python3 daily-log/scripts/build-site-data.py
-
       - name: Commit and push if there are changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add daily-log/ docs/
+          git add daily-log/
           git diff --staged --quiet || git commit -m "Daily Ship: $(date -u +%Y-%m-%d)"
           git push
