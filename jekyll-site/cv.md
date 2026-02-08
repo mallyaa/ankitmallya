@@ -7,7 +7,7 @@ title: CV
 
 <div class="cv-actions">
   <a href="{{ '/assets/cv.pdf' | relative_url }}" class="btn" target="_blank" rel="noopener">Download PDF</a>
-  <a href="https://linkedin.com/in/ankitmallya" class="btn btn-outline" target="_blank" rel="noopener">View on LinkedIn</a>
+  <a href="https://linkedin.com/in/ankitmallya" class="btn" target="_blank" rel="noopener">View on LinkedIn</a>
 </div>
 
 ---
