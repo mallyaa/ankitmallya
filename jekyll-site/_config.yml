@@ -1,0 +1,19 @@
+# Jekyll config for GitHub Pages — one-stop personal site
+title: Ankit Mallya
+description: "Tech Product Manager · Engineering → Product · Building products that ship"
+baseurl: ""  # Use "" for username.github.io; use "/repo-name" for username.github.io/repo-name/
+url: "https://mallyaa.github.io"
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# No theme — we use _layouts and assets
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - jekyll-site.iml

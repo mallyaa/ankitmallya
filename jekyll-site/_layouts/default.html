@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.title }}</a>
+      <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ '/experience' | relative_url }}" {% if page.url contains '/experience' %}class="active"{% endif %}>Experience</a></li>
+        <li><a href="{{ '/blog' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
+        <li><a href="{{ '/cv' | relative_url }}" {% if page.url contains '/cv' %}class="active"{% endif %}>CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <p><a href="mailto:ankit.mallya@gmail.com">Email</a> · <a href="https://linkedin.com/in/ankitmallya" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/ankitmallya" target="_blank" rel="noopener">GitHub</a></p>
+    <p class="footer-copy">© {{ 'now' | date: '%Y' }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>
