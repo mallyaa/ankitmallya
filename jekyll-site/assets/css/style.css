@@ -182,37 +182,48 @@ body {
   width: clamp(240px, 42vw, 320px);
   height: clamp(240px, 42vw, 320px);
   position: relative;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 .home-photo-wrap::before {
   content: '';
   position: absolute;
-  inset: -4px;
-  border-radius: var(--radius);
-  background: var(--accent-gradient);
-  opacity: 0.4;
+  inset: -3px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.2), rgba(6, 182, 212, 0.15));
   z-index: 0;
-  filter: blur(8px);
+  filter: blur(6px);
+  pointer-events: none;
+}
+
+.home-photo-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  pointer-events: none;
+  z-index: 2;
 }
 
 .home-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: var(--radius);
-  border: 2px solid var(--accent);
-  box-shadow: var(--shadow-card), 0 8px 32px rgba(15, 23, 42, 0.12);
+  border-radius: 14px;
   position: relative;
   z-index: 1;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08), 0 20px 48px rgba(15, 23, 42, 0.12);
+  filter: brightness(1.02) contrast(1.02) saturate(0.98);
 }
 
 .home-photo-placeholder {
   display: none;
   width: 100%;
   height: 100%;
-  border-radius: var(--radius);
+  border-radius: 14px;
   background: var(--accent-gradient);
-  border: 2px solid var(--accent);
   align-items: center;
   justify-content: center;
   position: relative;
@@ -235,27 +246,40 @@ body {
 
 .home-greeting-line {
   font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: var(--text-hero);
-  line-height: 1.15;
+  line-height: 1.2;
   letter-spacing: -0.03em;
-  margin: 0 0 var(--space-3);
-  color: var(--text);
-}
-
-.cursor-blink {
-  display: inline-block;
-  animation: cursorBlink 1s step-end infinite;
-}
-
-@keyframes cursorBlink {
-  50% { opacity: 0; }
-}
-
-.home-hero-text .summary-line {
-  font-size: var(--text-sub);
-  color: var(--muted);
   margin: 0 0 var(--space-4);
+}
+
+.greeting-prefix {
+  font-weight: 700;
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
+  color: var(--muted);
+  display: block;
+  margin-bottom: var(--space-1);
+}
+
+.greeting-name {
+  font-weight: 800;
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  color: #0a0f1a;
+  letter-spacing: -0.04em;
+  display: inline-block;
+}
+
+/* Console-style blinking slash */
+.cursor-console {
+  font-family: ui-monospace, "Cascadia Code", "SF Mono", Monaco, monospace;
+  font-weight: 600;
+  font-size: 0.85em;
+  color: #16a34a;
+  margin-left: 2px;
+  display: inline-block;
+  transition: opacity 0.1s step-end;
+}
+
+.cursor-console.cursor-off {
+  opacity: 0;
 }
 
 .home-hero-text p {
