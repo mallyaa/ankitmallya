@@ -5,7 +5,7 @@ title: Blog
 
 # Blog
 
-Short posts on product, data, and building in public.
+Short posts on life, cool products, data, and building in public.
 
 <ul class="blog-list">
   {% for post in site.posts %}
